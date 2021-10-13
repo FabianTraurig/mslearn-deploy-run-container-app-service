@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         context: dotnet
-        tags: ftrtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_7952d75685264c64bf830e10954dbd0d }}/webimage:${{ github.sha }}
+        tags: ftrtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_393fbdb9767b479da08a4878cef36315 }}/webimage:${{ github.sha }}
 
 
   deploy:
